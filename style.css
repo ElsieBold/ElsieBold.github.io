@@ -2,13 +2,15 @@ body{
 	text-align: center;
 	background: url(src/skyscraper.png);
 	background-repeat: no-repeat;
-    background-size: cover;	
-    background-position: center top;	
+  background-size: cover;	
+  background-position: center top;	
+  font-family: "Courier New", Helvetica, serif;
+  background-color: #e4f7fe;
 }
 
 h1{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 ul {
@@ -36,7 +38,16 @@ ul {
   }
 
   #bebold {
-    background-color: #333;
+    margin-top: 10%;
+    height: 180px;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 1000%;
+    font-weight: bolder;
+    font-family: "Arial Black", Helvetica, serif;
+    color: #ffef00;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: left;
+    padding: 5%;
   }
   
   .active {
